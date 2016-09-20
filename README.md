@@ -15,6 +15,6 @@ You application needs to be logically organized along the three layers of the **
 
 1. **Model** - the layer that manages the business logic and storage of the application, including the communication with the DBMS. In this phase I you do not work with the model yet. This layer is implemented with a DBMS, SQL, and Objects (e.g., Plain Old Java Objects (POJOS), or Python objects). 
 2. **View** - the layer that implement the UI of the application. This layer is the main focus of Phase I. This layer is implemented with things like HTML, CSS, JavaScript, Angular JS, etc. 
-3. **Controller** - the layer that implements the control logic to route the requests from the UI to the objects in the Model that implement the necessary logic of the application. 
+3. **Controller** - the layer that implements the control logic to route the requests from the UI to the objects in the Model that implement the necessary logic of the application. In Phase I, you implement very basic versions of controller which simply respond inmediately to the UI with an OK response. 
 
 
