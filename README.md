@@ -30,6 +30,14 @@ The response of the server comes encoded in JSON (Javascript Object Notation) wh
   'Day' : '09/09/2016'
 }
 ```
+### Deliverables
+
+Submit a Github repository with al the code, plus the report for Phase I. A template for the report can be found in this repo. **You application must run and be demostrable**. Your github repo might simply have two folders: 1) the client project and 2) the server project. Or, you can have everyhting integrated, particularly if your have a web application.
+
+## Bonus points
+Your project need to run locally on your laptop, perhaps using Eclipse, NetBeans, or InteliJ. *Up to 10 bonus points can be earned for phase I if your project runs on a real server (e.g., Amazon, Heroku) and an a real device (e.g., android phone.* 
+
+## Due Date: 11:59 pm, October 12, 2016 
 
 
 
