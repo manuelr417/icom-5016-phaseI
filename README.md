@@ -18,7 +18,16 @@ You application needs to be logically organized along the three layers of the **
 3. **Controller** - the layer that implements the control logic to route the requests from the UI to the objects in the Model that implement the necessary logic of the application. This layer is implemented with Node.js, Java Play, or Pythin Flask. In Phase I, you implement very basic versions of controller which simply respond inmediately to the UI with an OK response.  
 
 ### REST API
-Your application's UI must communicate with the controller via a [REST api] (http://www.restapitutorial.com). REST is a method in which your application requests access to data and server-side operation by issuing an HTTP request as if it would be requesting a web page. 
+Your application's UI must communicate with the controller via a [REST api] (http://www.restapitutorial.com). REST is a method in which your application requests access to data and server-side operation by issuing an HTTP request as if it would be requesting a web page. For example, say an app name *myuber* need to find the location of car *c3272*, and suppose the backend has address myber.com. Then the UI will issue a request as : http://myuber.com/findcar/c3272. In this case, *findcar* is the operation we want to make and c3272 is the parameter. You can implement your entire app using this scheme. In fact, you can support different UI since REST is supported by Android, iOS, Javascript and many other UI frameworks. 
+
+The response of the server comes encoded in JSON (Javascript Object Notation) which is supported by Android, iOS, Javascript, etc. For example, the response from the backend to the request the we mentioned above could be encoded as follows:
+{
+  'Car' : 'c3272',
+  'Latitute': 18.4393,
+  'Longitude': 64.484,
+  'Time' : '12:04 PM',
+  'Day' : '09/09/2016'
+}
 
 
 
