@@ -15,6 +15,10 @@ You application needs to be logically organized along the three layers of the **
 
 1. **Model** - the layer that manages the business logic and storage of the application, including the communication with the DBMS. In this phase I you do not work with the model yet. This layer is implemented with a DBMS, SQL, and Objects (e.g., Plain Old Java Objects (POJOS), or Python objects). 
 2. **View** - the layer that implement the UI of the application. This layer is the main focus of Phase I. This layer is implemented with things like HTML, CSS, JavaScript, Angular JS, etc. 
-3. **Controller** - the layer that implements the control logic to route the requests from the UI to the objects in the Model that implement the necessary logic of the application. In Phase I, you implement very basic versions of controller which simply respond inmediately to the UI with an OK response. 
+3. **Controller** - the layer that implements the control logic to route the requests from the UI to the objects in the Model that implement the necessary logic of the application. This layer is implemented with Node.js, Java Play, or Pythin Flask. In Phase I, you implement very basic versions of controller which simply respond inmediately to the UI with an OK response.  
+
+### REST API
+Your application's UI must communicate with the controller via a [REST api] (http://www.restapitutorial.com). REST is a method in which your application requests access to data and server-side operation by issuing an HTTP request as if it would be requesting a web page. 
+
 
 
